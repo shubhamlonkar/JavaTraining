@@ -14,7 +14,7 @@ public class BasicInput {
 	public static int readInteger() throws IOException {
 		
 		String s = readString();
-		System.out.println("String "+ s);
+		//System.out.println("String "+ s);
 		int i = Integer.parseInt(s);
 		return i;
 	}
